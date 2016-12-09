@@ -68,7 +68,7 @@ appBuilder.UseWebApi(config);
 appBuilder.UseFileServer(fileOptions);
 ```
 
-See (Startup.cs)[Web/Startup.cs] for an example. The required libaries can be found in NuGet.
+See [Startup.cs](Web/Startup.cs) for an example. The required libaries can be found in NuGet.
 
 ## Interfaces
 
