@@ -38,7 +38,7 @@ To create a Service follow these steps (ex. [Factory](Factory)):
 1. Create a Stateful or Stateless Service using the template in Visual Studio.
 2. Add a remoting listener endpoint under CreateServiceInstanceListeners():
   * return new[] { new ServiceInstanceListener(context => this.CreateServiceRemotingListener(context)) };
-3. Create an interface which will include any methods and properties you intend to expose.
+3. Create an interface which will include any methods and properties you intend to expose. It must inherit from IService.
 4. Implement the interface on the Service (ex. internal sealed class Factory : StatelessService, IFactory).
 5. To create or reference the Service (example):
   * IFactory factory = ServiceProxy.Create<IFactory>(new Uri("fabric:/SfWebAppDemo/Factory"));
