@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "SfWebAppDemo", "SfWebAppDemo\SfWebAppDemo.sfproj", "{3C980884-BA50-472F-8E66-20B8E539C98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{5B3630B7-C5AE-4C6C-86AD-DEFF29B8ECAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{8ABB88BD-A19C-47E3-AE25-176323B94BA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarActor", "CarActor\CarActor.csproj", "{024B1D24-BB3A-4022-99E5-BC58F569B69D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{052DF5B2-4257-48D3-8E05-3294CB843DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{5940AA06-A6BA-4661-AC0C-5606E517338B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C980884-BA50-472F-8E66-20B8E539C98F}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{3C980884-BA50-472F-8E66-20B8E539C98F}.Debug|x64.ActiveCfg = Debug|x64
+		{3C980884-BA50-472F-8E66-20B8E539C98F}.Debug|x64.Build.0 = Debug|x64
+		{3C980884-BA50-472F-8E66-20B8E539C98F}.Debug|x64.Deploy.0 = Debug|x64
+		{3C980884-BA50-472F-8E66-20B8E539C98F}.Release|Any CPU.ActiveCfg = Release|x64
+		{3C980884-BA50-472F-8E66-20B8E539C98F}.Release|x64.ActiveCfg = Release|x64
+		{3C980884-BA50-472F-8E66-20B8E539C98F}.Release|x64.Build.0 = Release|x64
+		{3C980884-BA50-472F-8E66-20B8E539C98F}.Release|x64.Deploy.0 = Release|x64
+		{5B3630B7-C5AE-4C6C-86AD-DEFF29B8ECAB}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{5B3630B7-C5AE-4C6C-86AD-DEFF29B8ECAB}.Debug|x64.ActiveCfg = Debug|x64
+		{5B3630B7-C5AE-4C6C-86AD-DEFF29B8ECAB}.Debug|x64.Build.0 = Debug|x64
+		{5B3630B7-C5AE-4C6C-86AD-DEFF29B8ECAB}.Release|Any CPU.ActiveCfg = Release|x64
+		{5B3630B7-C5AE-4C6C-86AD-DEFF29B8ECAB}.Release|x64.ActiveCfg = Release|x64
+		{5B3630B7-C5AE-4C6C-86AD-DEFF29B8ECAB}.Release|x64.Build.0 = Release|x64
+		{8ABB88BD-A19C-47E3-AE25-176323B94BA4}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{8ABB88BD-A19C-47E3-AE25-176323B94BA4}.Debug|x64.ActiveCfg = Debug|x64
+		{8ABB88BD-A19C-47E3-AE25-176323B94BA4}.Debug|x64.Build.0 = Debug|x64
+		{8ABB88BD-A19C-47E3-AE25-176323B94BA4}.Release|Any CPU.ActiveCfg = Release|x64
+		{8ABB88BD-A19C-47E3-AE25-176323B94BA4}.Release|x64.ActiveCfg = Release|x64
+		{8ABB88BD-A19C-47E3-AE25-176323B94BA4}.Release|x64.Build.0 = Release|x64
+		{024B1D24-BB3A-4022-99E5-BC58F569B69D}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{024B1D24-BB3A-4022-99E5-BC58F569B69D}.Debug|x64.ActiveCfg = Debug|x64
+		{024B1D24-BB3A-4022-99E5-BC58F569B69D}.Debug|x64.Build.0 = Debug|x64
+		{024B1D24-BB3A-4022-99E5-BC58F569B69D}.Release|Any CPU.ActiveCfg = Release|x64
+		{024B1D24-BB3A-4022-99E5-BC58F569B69D}.Release|x64.ActiveCfg = Release|x64
+		{024B1D24-BB3A-4022-99E5-BC58F569B69D}.Release|x64.Build.0 = Release|x64
+		{052DF5B2-4257-48D3-8E05-3294CB843DDB}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{052DF5B2-4257-48D3-8E05-3294CB843DDB}.Debug|x64.ActiveCfg = Debug|x64
+		{052DF5B2-4257-48D3-8E05-3294CB843DDB}.Debug|x64.Build.0 = Debug|x64
+		{052DF5B2-4257-48D3-8E05-3294CB843DDB}.Release|Any CPU.ActiveCfg = Release|x64
+		{052DF5B2-4257-48D3-8E05-3294CB843DDB}.Release|x64.ActiveCfg = Release|x64
+		{052DF5B2-4257-48D3-8E05-3294CB843DDB}.Release|x64.Build.0 = Release|x64
+		{5940AA06-A6BA-4661-AC0C-5606E517338B}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{5940AA06-A6BA-4661-AC0C-5606E517338B}.Debug|x64.ActiveCfg = Debug|x64
+		{5940AA06-A6BA-4661-AC0C-5606E517338B}.Debug|x64.Build.0 = Debug|x64
+		{5940AA06-A6BA-4661-AC0C-5606E517338B}.Release|Any CPU.ActiveCfg = Release|x64
+		{5940AA06-A6BA-4661-AC0C-5606E517338B}.Release|x64.ActiveCfg = Release|x64
+		{5940AA06-A6BA-4661-AC0C-5606E517338B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
